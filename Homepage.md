@@ -19,7 +19,7 @@ von Zusammenhängen.
 
 <div>
 
-<h2>🔹 Das System</h2>
+<h2>Das System</h2>
 
 <p>
 Es geht nicht nur um eine einzelne Person, sondern um das System als Ganzes –
@@ -35,7 +35,7 @@ zum Beispiel ihre Familie, ihr Team, ihre Organisation oder ihr Körper.
 
 <div>
 
-<h2>🔹 Visualisierung</h2>
+<h2>Visualisierung</h2>
 
 <p>
 Durch die räumliche Anordnung der Stellvertreter werden die Beziehungen und
@@ -51,7 +51,7 @@ Einflüsse innerhalb des betrachteten Systems sichtbar gemacht.
 
 <div>
 
-<h2>🔹 Muster erkennen</h2>
+<h2>Muster erkennen</h2>
 
 <p>
 Die Aufstellung kann helfen, Verhaltensmuster, Blockaden und Konfliktpotenziale
@@ -67,7 +67,7 @@ zu erkennen.
 
 <div>
 
-<h2>🔹 Lösungsorientiert</h2>
+<h2>Lösungsorientiert</h2>
 
 <p>
 Sie dient dazu, neue Lösungsansätze zu entwickeln und die gegenseitigen
