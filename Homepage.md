@@ -1,7 +1,10 @@
 ---
 layout: page
-title: Herzlich willkommen auf meiner Website
+title:Home
 ---
+
+<h1> Herzlich Willkommen auf meiner Website </h1>
+
 <p>
 Willkommen auf meiner Reise zur systemischen Betrachtung und Visualisierung
 von Zusammenhängen.
