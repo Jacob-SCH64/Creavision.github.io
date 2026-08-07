@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+permalink: /
 ---
 
 <h1>Herzlich Willkommen auf meiner Website</h1>
@@ -9,9 +9,6 @@ title: Home
 Willkommen auf meiner Reise zur systemischen Betrachtung und Visualisierung
 von Zusammenhängen.
 </p>
-
-
-
 
 <section class="einfliegen">
 
@@ -28,7 +25,6 @@ zum Beispiel ihre Familie, ihr Team, ihre Organisation oder ihr Körper.
 
 </section>
 
-
 <section class="einfliegen">
 
 <div>
@@ -43,7 +39,6 @@ Einflüsse innerhalb des betrachteten Systems sichtbar gemacht.
 </div>
 
 </section>
-
 
 <section class="einfliegen">
 
@@ -60,7 +55,6 @@ zu erkennen.
 
 </section>
 
-
 <section class="einfliegen">
 
 <div>
@@ -75,7 +69,6 @@ Beziehungen nachhaltig zu verbessern.
 </div>
 
 </section>
-
 
 <section class="einfliegen">
 
@@ -122,7 +115,6 @@ Tiefer in die Strukturen Ihrer Organisation blicken und Zusammenhänge sichtbar 
 
 </section>
 
-
 <section class="einfliegen">
 
 <div>
@@ -139,7 +131,6 @@ Wenn Sie das anspricht, freue ich mich auf Ihre Kontaktaufnahme.
 </div>
 
 </section>
-
 
 <section class="einfliegen">
 
