@@ -1,66 +1,173 @@
 ---
 ---
+/* Grundlayout */
 
-/* Grundlegende Formatierungen */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
   margin: 0;
-  padding: 0;
-  background-color: #f5f5f5;
+  background: #f3f1ed;
   color: #333;
 }
 
-/* Allgemeines Layout für Sections */
+
+/* Hauptbereich */
+
+.page-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+
+/* Überschriften */
+
+h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #2f4f4f;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #3d5a5a;
+  margin-top: 0;
+}
+
+
+/* Sections als Karten */
+
 section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 40px;
-  border-bottom: 1px solid #ddd;
-  background-color: white;
+  background: white;
+  padding: 35px;
+  margin: 35px 0;
+  border-radius: 18px;
+
+  box-shadow:
+    0 8px 25px rgba(0,0,0,0.08);
+
+  transition: transform 0.3s ease,
+              box-shadow 0.3s ease;
 }
 
-/* Textinhalt in einem Container */
-section > *:not(img) {
-  flex: 1 1 60%;
-  max-width: 60%;
+
+section:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 15px 35px rgba(0,0,0,0.12);
 }
 
-/* Bild rechtsbündig */
-section img {
-  flex: 1 1 35%;
-  max-width: 35%;
-  height: auto;
-  object-fit: contain;
-  margin-left: 20px;
-  align-self: center;
-  border-radius: 8px;
+
+/* Diamant-Symbol */
+
+h2::before {
+  content: "◆";
+  color: #6fa8a8;
+  font-size: 0.8em;
+  margin-right: 15px;
 }
+
+
+/* Text */
+
+p {
+  font-size: 1.15rem;
+  color: #444;
+}
+
+
+/* Listen */
+
+ul {
+  padding-left: 25px;
+}
+
+li {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+
+/* Zitat */
+
+blockquote {
+  background: #e8f0ef;
+  border-left: 5px solid #6fa8a8;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+
+/* Einschwebeffekt */
 
 .einfliegen {
-  animation: slideIn 1.5s ease-out forwards;
+
   opacity: 0;
-  transform: translateX(-100%);
+
+  transform: translateY(40px);
+
+  animation:
+  erscheinen 1.2s ease forwards;
 }
-@keyframes slideIn {
+
+
+@keyframes erscheinen {
+
   to {
-    opacity: 1;
-    transform: translateX(0);
+
+    opacity:1;
+
+    transform:translateY(0);
+
   }
+
 }
 
-/* Responsive Anpassung */
-@media (max-width: 768px) {
-  section {
-    flex-direction: column;
+
+/* Kontakt */
+
+.contact {
+
+  background:#2f4f4f;
+
+  color:white;
+
+}
+
+.contact h2,
+.contact p {
+
+  color:white;
+
+}
+
+
+/* Mobil */
+
+@media(max-width:700px){
+
+  h1 {
+
+    font-size:2.2rem;
+
   }
 
-  section > *:not(img),
-  section img {
-    max-width: 100%;
-    flex: 1 1 100%;
-    margin-left: 0;
+
+  section {
+
+    padding:25px;
+
   }
+
+
+  p {
+
+    font-size:1rem;
+
+  }
+
 }
