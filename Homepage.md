@@ -3,11 +3,11 @@ layout: page
 title: Home
 permalink: /
 ---
+<div class="fade-in">
+# Willkommen
 
-# Einschwebe Text
-
-Text untendrunter
-
+Herzlich willkommen auf meiner Website.
+</div>
 ---
 
 # Um was geht's?
