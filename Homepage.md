@@ -2,6 +2,8 @@
 layout: page
 title: Home
 permalink: /
+theme: minima
+remote_theme: pages-themes/cayman
 ---
 <div class="fade-in">
 # Willkommen
