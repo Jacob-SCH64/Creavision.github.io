@@ -1,12 +1,7 @@
 ---
 layout: page
-title: Home
+title: Herzlich willkommen auf meiner Website
 ---
-
-<section class="einfliegen">
-
-<h1>Herzlich willkommen auf meiner Website.</h1>
-
 <p>
 Willkommen auf meiner Reise zur systemischen Betrachtung und Visualisierung
 von Zusammenhängen.
