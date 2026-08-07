@@ -10,7 +10,7 @@ Willkommen auf meiner Reise zur systemischen Betrachtung und Visualisierung
 von Zusammenhängen.
 </p>
 
-</section>
+
 
 
 <section class="einfliegen">
